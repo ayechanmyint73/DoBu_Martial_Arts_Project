@@ -1,0 +1,114 @@
+h2{
+    padding: 7px;
+}
+
+#kids-classes{
+  margin-top: 79px;
+}
+
+
+#page-board{
+    margin-top: 70px;
+}
+
+#intro {
+    background-image: url(../images/kids-cover.webp);
+    max-width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+
+.board-text{
+    font-size: 56px;
+}
+
+.kids-text{
+  font-size: 18px;
+}
+
+ul{
+  line-height: 40px;
+}
+
+#btn-interest{
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border: 2px solid ;
+}
+
+#btn-interest:hover{
+  opacity: 0.7;
+}
+
+.classes{
+  margin-bottom: 88px;
+}
+
+
+#review-content{
+    margin-top: 67px;
+    padding: 10px;
+}
+
+
+.profile1{
+    width: 65%;
+    border-radius: 50%;
+    margin: 5px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.profile-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    transition: 0.2s;
+    transform: scale(1);
+}
+
+
+#questions-content{
+    margin-top: 80px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 2px 18px;
+  background-color: white;
+  max-height: 0;
+  font-size: 19px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

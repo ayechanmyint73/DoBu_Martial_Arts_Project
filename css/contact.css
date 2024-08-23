@@ -1,0 +1,86 @@
+h2{
+    padding: 7px;
+}
+
+#page-board{
+    margin-top: 70px;
+}
+
+#intro {
+    background-image: url(../images/contact-img.png);
+    max-width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.board-text{
+    font-size: 56px;
+}
+
+#questions-content{
+    margin-top: 80px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 2px 18px ;
+    background-color: white;
+    font-size: 19px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+#location-content{
+    margin:38px;
+    align-items: center;
+}
+
+.location-text{
+    list-style: none;
+    font-size: 18px;
+}
+
+
+#btn-send{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+  
+#btn-send:hover{
+    opacity: 0.7;
+}
